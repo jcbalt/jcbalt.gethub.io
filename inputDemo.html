@@ -5,7 +5,22 @@
   <body>
     <center>
       <h1>Input Demo</h1>
+      <p>Enter Text: </p>
+      <input type="text" placeholder="enter text" id="input">
+      <button onclick="getInput()">Click Here</button>
+      <p is="output"></p>
       <a href="index.html">Click here to go home</a>
+    <script>
+      function getInput()
+        {
+          let input = document.getElementbyId("input").value;
+          
+          console.log(input);
+          
+          alert(input);
+          document.getElementById("output").innerHTML="You Entered:" + input;
+        }
+    </script>
     </center>
   </body>
 </html>
