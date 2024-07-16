@@ -12,7 +12,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
 
-L.marker([35.2176665, -80.831473]{
+L.marker([35.2176665, -80.831473], {
   title: "Hello from CPCC!"
 }).bindPopup("Hello from CPCC!")
   .addTo(map);
