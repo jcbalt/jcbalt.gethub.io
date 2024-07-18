@@ -6,8 +6,7 @@ console.log("basicMap.js loaded.");
 
 let markers = [];
 
-markers.push()
-
+markers.push(
 L.marker([35.2176665, -80.831473], {
   title: "Hello from CPCC!"
 }).bindPopup(`
