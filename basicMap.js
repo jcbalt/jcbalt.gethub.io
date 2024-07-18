@@ -19,7 +19,7 @@ L.marker([35.2176665, -80.831473], {
 <p>[URL: https://www.youtube.com/watch?v=4tPYXA5o0b8]</p> 
 </center>
 `)
-)
+  )
 
 let CPCC = L.layerGroup(markers
 
