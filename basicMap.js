@@ -42,3 +42,7 @@ let baseMaps = {
   Street: street, 
   Topographic: topo
 }
+
+let overlayMaps = {
+	 CPCC:CPCC
+}
