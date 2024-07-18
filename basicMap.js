@@ -45,5 +45,10 @@ let overlayMaps = {
 
 let map = L.map("map", {
 center: [35.2176665, -80.831473],
-  zoom: 16
+  zoom: 16,
+  layers: [street, CPCC]
 });
+
+L.control.layers(baseMaps, overlayMaps, {
+	collapsed: false 
+}).addTo(map);
